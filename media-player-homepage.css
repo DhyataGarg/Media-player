@@ -1,0 +1,863 @@
+/*Common Classes*/
+/*Box Shadow*/
+.box-shadow:hover{
+	box-shadow: 0px 0px 2px 1px white;
+}
+
+/*display classes*/
+.display-flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.display-inline-block{
+	display: inline-block;
+}
+
+/*Image Classes*/
+.image{
+	background-size: cover;
+}
+
+.image-translucent{
+	opacity: 0.7;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.image-translucent>p{
+  	font-weight: bold;
+  	color: white;
+}
+
+/*Margin classes*/
+.margin{
+	margin: 10px; 
+}
+
+.margin-left-20per{
+	margin-left:100px;
+}
+
+.margin-left-30{
+	 margin-left:30px;
+}
+
+.margin-left-650{
+	margin-left:45%;
+}
+
+.margin-top{
+	margin-top: -10px;
+}
+
+.margin-top-10{
+	margin-top: 10px;
+}
+
+.margin-top-20{
+	margin-top: 20px;
+}
+
+.margin-top-30{
+	margin-top: 30px;
+}
+
+/*Padding Classes*/
+.padding{
+	padding: 10px;
+}
+
+.padding-top-8{
+	padding-top: 8px;
+}
+
+/*Playlist Headings*/
+.playlist-heading{
+	width: 100%;
+}
+
+/*position classes*/
+
+.position-abs{
+	position: absolute;
+}
+
+.position-fixed{
+	position: fixed;
+	width: 100%;
+}
+
+.position-rel{
+	position: relative;
+	top: -17px;
+	right: -8px;
+}
+
+/*alignment styles*/
+.right-alignment{
+	text-align: right;
+	vertical-align: top;
+}
+
+.text-alignment-center{
+	text-align: center;
+}
+
+/*text colors*/
+.text-white{
+	color: white;
+}
+
+.text-grey{
+	color: #51546d;
+}
+
+/*Body Styles*/
+body{
+	margin-right: auto !important;
+	margin-left: auto !important;
+	background-color: #0d102a;
+}
+
+/*Header Styles*/
+header{
+	top: 0px;
+	margin-bottom: 60px;
+	background-color: #0d102a;
+	left:0px;
+	z-index: 5;
+}
+
+/*Logo Image*/
+#logo{
+	height:60px;
+	width: 60px;
+}
+
+/*favourites*/
+#favourites{
+	left: 15%;
+}
+
+/*microphone position*/
+#microphone{
+	margin-left:235px;
+}
+
+/*Bar icon*/
+#bell{
+	right: 8%;
+}
+
+/*notification*/
+#dot{
+	width: 5px;
+	height: 5px;
+	background-color: red;
+	border-radius: 50%;
+}
+
+/*searh bar*/
+#search{
+	right: 12%;
+}
+
+.search-box{
+	background-color: #101845;
+	border:none;
+	line-height: 1.7em;
+	width: 250px;
+	text-align: center;
+}
+
+.search-box:focus{
+	color: white;
+}
+
+.search-icon{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 7px;
+	background-color: #101845;
+}
+
+/*Profile image*/
+#head-image-div{
+	right: 0px;
+}
+
+#head-image{
+	height: 60px;
+	border-radius: 50%;
+}
+
+/*Main Section*/
+
+/*Top Playlist Styles*/
+
+/* Top Playlist section*/
+#topplaylist-section{
+	width: 100%;
+	height: 300px;
+	margin-top: 70px;
+}
+
+/*Top Playlist Songs*/
+.topplaylist{
+	height: 250px;
+	width: 250px;
+	transition: all 0.5s ease ;
+}
+
+.topplaylist:hover{
+ 	transform:scale(1.3,1.3);
+ 	z-index: 3;
+}
+
+/*Top Playlist Images*/
+#topplaylist-1{
+	z-index: 1;
+	background-image: url(media/mood-boosters.jpeg);
+}
+
+#topplaylist-1:hover{
+	z-index: 3;
+}
+
+#topplaylist-2{
+	z-index: 2;
+	background-image: url(media/taylor-swift.jpg);
+}
+#topplaylist-3{
+	z-index: 1;
+	background-image: url(media/Kard.jpeg);
+}
+
+#topplaylist-3:hover{
+	z-index: 3;
+}
+
+/*Latest Release*/
+.latest-release{
+	transition: all 0.5s ease;
+}
+
+.latest-release:hover{
+	transform: scale(1.2);
+}
+
+/*Latest Release Details*/
+.latest-release-details{
+	height: 100px; 
+	width: 250px;
+	display: inline-block;
+}
+
+.width-47{
+	width: 47%;
+}
+
+/*Play Icon*/
+.latest-play-icon{
+	color: white;
+	font-size: 2rem;
+	margin-top: 30%;
+	visibility: hidden;
+}
+
+.latest-release:hover .latest-play-icon{
+	visibility: visible;
+	z-index: 1
+}
+
+/*Latest Release Images*/
+.latest-release-images{
+	height: 100px; 
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+}
+
+.latest-release:hover .latest-release-images{
+	opacity: 0.7;
+	box-shadow: 0px 0px 2px 1px white;
+}
+
+#lr-1{
+	background-image: url(media/Willow.jpg);
+}
+
+#lr-2{
+	background-image: url(media/Maula.jpg);
+}
+
+#lr-3{
+	background-image: url(media/Ae-Mere-Dil.jpg);
+}
+
+#lr-4{
+	background-image: url(media/khali-khali.jpg);
+}
+
+/*Latest Release Options Icon*/
+.dot-border:hover{
+	border-radius: 50%;
+	padding: 2px;
+	box-shadow: 0px 0px 4px 2px white;
+	cursor: pointer;
+}
+
+
+/*Popular Artist Section*/
+.pa-main-div{
+	transition:all 0.5s ease;
+}
+
+.pa-main-div:hover{
+	transform: scale(1.2);
+}
+
+/*Popular Artist Image Div*/
+.popular-artist{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align:center;
+}
+
+.pa-main-div:hover .popular-artist{
+	opacity: 0.7;
+}
+
+/*Popular Artist Play Icon*/
+.popular-artist-play-icon{
+	color: white;
+	font-size: 2rem;
+	margin-top: 35%;
+	visibility: hidden;
+}
+
+.pa-main-div:hover .popular-artist-play-icon{
+	visibility: visible;
+	z-index: 1
+}
+
+/*Popular Artist Images*/
+#pa-1{
+	background-image: url(media/Ed-Sheeran.jpg);
+}
+
+#pa-2{
+	background-image: url(media/coldplay.jpg);
+}
+
+#pa-3{
+	background-image: url(media/zayn.jpg);
+}
+
+#pa-4{
+	background-image: url(media/charlie-puth.jpeg);
+}
+
+#pa-5{
+	background-image: url(media/imagine-dragon.jpeg);
+}
+
+#pa-6{
+	background-image: url(media/bruno-mars.jpeg);
+}
+
+/*Coldplay link*/
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Stations Styles*/
+.background-clr{
+	background-color: #101845;
+}
+
+.stations{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: #101845;
+}
+
+.stations:hover{
+	opacity: 0.5;
+}
+
+/*Station Logo*/
+#stations-logo-main-div{
+	position: static;
+	height: 90px;
+	width: 130px;
+	margin-top: 5px;
+}
+
+.stations-logo-div{
+	position: absolute;
+}
+
+#stations-logo-div-1{
+	background-color: #fdd043;
+	height: 50px;
+	width: 130px;
+	z-index: 1;
+	margin-top: 20px;
+}
+
+#stations-logo-div-2{
+	background-color: #f7b707;
+	height: 70px;
+	width: 110px;
+	z-index: 2;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#stations-logo-div-3{
+	background-color: #ff5b07;
+	height:	90px;
+	width: 90px;
+	z-index: 3;
+	margin-left: 20px;
+	text-align: center;
+}
+
+/*CD on the station div*/
+#cd-logo{
+	height: 50px;
+	width: 50px;
+	margin-top: 10px;
+	margin-bottom: -13px;
+	animation:rotate 0.8s ease-in-out infinite;
+}
+
+/*Animation applied to the cd*/
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}
+
+	80%{
+		transform: rotateZ(360deg);
+	}	
+
+	to{
+		transform: rotateZ(360deg);
+	}	
+}
+
+/*Station Images*/
+#station-1{
+	background-image: url(media/love.jpeg);
+}
+
+#station-2{
+	background-image: url(media/retro.jpeg);
+}
+
+#station-3{
+	background-image: url(media/chill.jpg);
+}
+
+#station-4{
+	background-image: url(media/workout.jpg);
+}
+
+#station-5{
+	background-image: url(media/rock.jpeg);
+}
+
+#station-6{
+ 	background-image: url(media/pop.jpg);
+}
+
+/*Next Playlist*/
+#next-playlist-section{
+	width: 100%;
+	height: 130px;
+}
+
+.next-playlist{
+	height: 130px; 
+	width: 250px;
+	overflow: hidden;
+}
+
+.next-playlist-images-transition{
+	transform: scale(1,1);
+	transition: all 0.5s ease;
+}
+
+.next-playlist-images-transition:hover{
+	transform: scale(1.2,1.2);	
+}
+
+/*Next Playlist Images*/
+#next-playlist-1{
+	background-image: url(media/party.jpg);
+}
+
+#next-playlist-2{
+	background-image: url(media/electronics.jpeg);
+}
+
+#next-playlist-3{
+	background-image: url(media/roadtrip.jpg);
+}
+
+/*Latest Languages*/
+#latest-lang-main-div{
+	transition: all 0.5s ease;
+}
+
+#latest-lang-main-div:hover{
+	transform: scale(1.2);
+}
+
+.latest-lang{
+	height: 100px;
+	width: 100px;
+}
+
+/*Latest Hindi Images*/
+#latest-lang-hin-1{
+background-image: url(media/Ae-Mere-Dil.jpg);
+}
+
+#latest-lang-hin-2{
+	background-image: url(media/je-tu-na-bulawe.jpg);
+}
+
+#latest-lang-hin-3{
+	background-image: url(media/tanhaai.jpg);
+}
+
+#latest-lang-hin-4{
+	background-image: url(media/burj-khalifa.webp);
+}
+
+#latest-lang-hin-5{
+	background-image: url(media/shayad.jpg);
+}
+
+#latest-lang-hin-6{
+	background-image: url(media/khali-khali.jpg);
+}
+
+/*Latest English Images*/
+#latest-lang-eng-1{
+	background-image: url(media/Me.jpg);
+}
+
+#latest-lang-eng-2{
+	background-image: url(media/space-melody.jpg);}
+
+#latest-lang-eng-3{
+	background-image: url(media/blank-space.jpg);
+}
+
+#latest-lang-eng-4{
+	background-image: url(media/dynamite.jpeg);	
+}
+
+#latest-lang-eng-5{
+	background-image: url(media/the-journey.jpg);
+}
+
+#latest-lang-eng-6{
+	background-image: url(media/hero.jpg);
+}
+
+/*Margin Bottom*/
+#margin-div{
+	margin-bottom: 50px;
+}
+
+/*Aside Section*/
+.aside-section{
+	height: 90%;
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+} 
+ 
+.aside-section>h2{
+	margin-top: 85px;
+} 
+
+.aside-section-div{
+	height: 65px;
+	transition: all 0.3s ease;
+} 
+
+.aside-section-div:hover{
+	transform: scale(1.1);
+}
+
+.aside-section-image{
+	height: 60px;
+	width: 60px;
+}
+
+.aside-section-div:hover .aside-section-image{
+	box-shadow: 0px 0px 2px 1px white; 
+	opacity: 0.7;
+}
+
+.song-name-width{
+	width: 55%;
+}
+
+/*Side Queue Play Icon*/
+.side-queue-play-icon{
+	color: white;
+	font-size: 2rem;
+	margin-top: 25%;
+	margin-left: 26%;
+	visibility: hidden;
+}
+
+.aside-section-div:hover .side-queue-play-icon{
+	visibility: visible;
+	z-index: 1
+}
+
+/*Like Icon*/
+.fa-heart{
+	cursor: pointer;
+}
+
+.like-icon-width{
+	width: 9%;
+}
+
+/*Side Queue Images*/
+.side-image-1{
+	background-image: url(media/Willow.jpg);
+}
+
+.side-image-2{
+	background-image: url(media/tanhaai.jpg);
+}
+
+.side-image-3{
+	background-image: url(media/khali-khali.jpg);
+}
+
+.side-image-4{
+	background-image: url(media/maula.jpg);
+}
+
+.side-image-5{
+	background-image: url(media/Ae-Mere-Dil.jpg);
+}
+
+.side-image-6{
+	background-image: url(media/je-tu-na-bulawe.jpg);
+}
+
+.side-image-7{
+	background-image: url(media/ab-kya-jaan-legi-meri.jpg);
+}
+
+.side-image-8{
+	background-image: url(media/burj-khalifa.webp);
+}
+
+.side-image-9{
+	background-image: url(media/shayad.jpg);
+}
+
+.side-image-10{
+	background-image: url(media/khali-khali.jpg);
+}
+
+.side-image-11{
+	background-image: url(media/Me.jpg);
+}
+
+.side-image-12{
+	background-image: url(media/space-melody.jpg);
+}
+
+.side-image-13{
+	background-image: url(media/blank-space.jpg);
+}
+
+.side-image-14{
+	background-image: url(media/dynamite.jpeg);
+}
+
+.side-image-15{
+	background-image: url(media/the-journey.jpg);
+}
+
+.side-image-16{
+	background-image: url(media/hero.jpg);
+}
+
+.side-image-17{
+	background-image: url(media/Willow.jpg);
+}
+
+.side-image-18{
+	background-image: url(media/tanhaai.jpg);
+}
+
+/*Footer*/
+footer {
+	position:fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: #282828;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	flex-wrap: nowrap;
+	padding: 0px 3%;
+	box-sizing: border-box;
+	z-index: 6;
+}
+/* footer is divided into 3 parts */
+/* 1. first part of the footer */
+.active-song-description {
+	/* border:1px solid white; */
+	height: 90%;
+	width: 25%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+/* the current song which is being played, this is the image container for that. */
+#song-image {
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height: 50px;
+}
+/* current song image */
+#song-image img {
+	width: 100%;
+	height: 100%;
+}
+/* heart and ban icon */
+.heart-and-ban-icon {
+	height: 100%;
+	padding-top: 4%;
+}
+/* song decscription */
+.song-desc {
+	margin-right: 1%;
+	margin-left: 1%;
+}
+/* song name */
+.song-desc div:nth-child(1) {
+	font-size: 14px;
+}
+/* song author */
+.song-desc div:nth-child(2) {
+	font-size: 12px;
+}
+
+/* 2. Second part of the footer*/
+.player {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+/* controls is the container for all the center controls of the player */
+.controls {
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+}
+/* this is the song-duration slider */
+#slider {
+	width: 100%;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5px;
+}
+/* ////////// */
+.time {
+	margin: 0px 10px;
+}
+
+/* adjusting the slider for better visuals */
+.slidecontainer {
+	width: 100%;
+}
+
+/* for audio and main center player */
+.slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.5;
+	-webkit-transition: 0.2s;
+	transition: opacity 0.2s;
+}
+
+/* hover effect for the slider */
+.slider:hover {
+	opacity: 1;
+}
+
+/* these are for adjusting the dimensions and default styling of the long-slider */
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background: #007bff;
+	cursor: pointer;
+}
+
+/* this is the circular thumb, which can be moved across the div */
+.slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #4caf50;
+	cursor: pointer;
+}
+
+/* third part of the footer */
+/* this contains the extra icons and slider for volume */
+/* this is also a container */
+.extras {
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+
+
+

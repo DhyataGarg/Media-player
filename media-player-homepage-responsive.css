@@ -1,0 +1,79 @@
+@media only screen and (max-width:1300px){
+	.topplaylist{
+		position: absolute;
+	}
+
+	#topplaylist-3{
+		right: 30px;	
+	}
+
+	#topplaylist-2{
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	main{
+		min-width: 100vw;
+	}
+
+	aside{
+		min-width: 96vw;
+		padding-left: 20px;
+		padding-bottom: 50px;
+	}
+
+	.latest-release-details{ 
+		width: 300px;
+	}
+
+	.next-playlist{
+	height: 130px; 
+	width: 250px;
+	overflow: hidden;
+	}
+
+	.next-playlist{
+		position: absolute;
+		opacity: 1;
+	}
+
+	#next-playlist-div-3{
+		right: 0px;
+	}
+
+	#next-playlist-div-2{
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 2;
+	}
+
+	#next-playlist-div-3:hover,
+	#next-playlist-div-1:hover
+	{
+		z-index: 3;
+	}
+}
+
+
+@media only screen and (max-width:900px){
+	#search{
+		top: 45px;
+		max-width: 253px;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#bell{
+		right: 100px;
+	}
+
+	header{
+		height: 100px;
+	}
+}
